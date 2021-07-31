@@ -1,0 +1,347 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+body{font-family: 'Lato', sans-serif;}
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 39px;color: #ffffff;}
+p{ font-size: 11px; color:#999999;line-height: 18px;}
+h2{font-size: 72px;color: #363636;}
+ul li{list-style: none;display: inline-block;}
+ul li a{text-decoration: none ; font-size: 12px; color: white; }
+img{width: 100%;}
+
+/* global css ends here */
+
+/* sizing css starts here */
+.container{width: 960px;margin:0 auto;}
+.structure{width: 660px;margin:0 auto;}
+/* sizing css ends here */
+.navigationArea {
+    padding: 30px 35px;
+}
+.logoArea {
+    width: 6%;
+}
+.navMenu {
+    width: 45%;
+    margin-left: 100px;
+}
+.contactUSArea {
+    width: 25%;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+.navMenu ul li a {
+    font-size: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.MenuBtnone {
+    color: #314584;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 12px;
+}
+.MenuBtnTwo {
+    margin-left: 10px;
+    margin-right: 0px;
+    padding: 8px 18px;
+    font-size: 12px;
+    box-shadow: 0px 0px 1px #e2e5e5;
+}
+.ArrowBox {
+    width: 11%;
+    padding-left: 11px;
+    display: inline-block;
+}
+.headerHeroArea {
+    padding: 160px 0px 160px 0px;
+}
+.HeroAreaHeading h1 {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.HeroAreaHeading p {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.heroButtons {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 33px;
+}
+.HeroButtonone {
+    width: 18%;
+    font-size: 12px;
+    padding: 8px 17px;
+    border-radius: 26px;
+    margin: 0px 8px 0px 0px;
+}
+.HeroButtontwo{
+    width: 18%;
+    font-size: 12px;
+    padding: 8px 17px;
+    border-radius: 26px;
+    margin: 0px 8px 0px 0px;
+}
+.HeroButtontwo:hover{
+    width: 18%;
+    font-size: 12px;
+    padding: 8px 17px;
+    background-color: #ff3946;
+    border-radius: 26px;
+    color: #ffffff;
+    margin: 0px 8px 0px 0px;
+    transition: all .5s ease;
+}
+.HeroBg::before {
+    height: 84%;
+    width: 47%;
+    top: 37px;
+    right: -98px;
+}
+.headersection::after {
+    height: 91%;
+    width: 44%;
+    top: 11px;
+    background-size: cover;
+}
+.OurServicesmainBOx {
+    padding: 60px 0px 60px 0px;
+}
+.servicesHeading h1 {
+    font-size: 22px;
+    margin-bottom: 17px;
+}
+.servicesHeading a {
+    font-size: 8px;
+    padding: 7px 15px;
+    border-radius: 26px;
+    margin: 0px 10px 0px 0px;
+}
+.productCart {
+    width: 39%;
+    margin: 0px 20px 0px 20px;
+    padding: 15px 5px 15px 15px;
+    box-shadow: 0px 2px 10px #e2e5e5;
+}
+.ArreoboxTwo {
+    width: 33%;
+    margin-bottom: 25px;
+}
+
+
+.cartDefenderThree {
+    margin-top: 18px;
+}
+.cartDefinertwo {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.cartDefenderThree {
+    font-size: 9px;
+    line-height: 13px;
+}
+.productCart {
+    padding: 20px 40px 20px 20px;
+}
+.reserchAreaDIv {
+    padding: 100px 0px 100px 0px;
+    position: relative;
+    width: 55%;
+}
+.reserchAreaDIv a {
+    font-size: 12px;
+}
+.reserchAreaDIv h1 {
+    font-size: 21px;
+    margin: 23px 0px;
+}
+.reserchAreaDIv p {
+    margin: 0px 0px 25px 0px;
+}
+.leftArrowSizing {
+    display: inline-block;
+    width: 2%;
+}
+.rightArrowSizing {
+    display: inline-block;
+    width: 4%;
+}
+.reserchAreaDIv::before {
+    height: 45%;
+    width: 86%;
+    top: 112px;
+    right: 418px;
+}
+.ServicesTatWeSEll::before {
+    height: 72%;
+    width: 17%;
+    top: 0px;
+    right: 798px;
+    background-image: url(images/secondgoogly-bgleft.png);
+}
+.mainHeading {
+    width: 29%;
+}
+.ServicesTatWeSEll::after {
+    height: 75%;
+    width: 23%;
+    top: 153px;
+    right: 0px;
+}
+.mainHeading h1 {
+    color: #314584;
+    font-size: 24px;
+}
+.fetBoxMini {
+    width: 30%;
+    margin-left: 8px;
+}
+.leftArrowSizingthree {
+    width: 16%;
+}
+.rightArrowSizingFour {
+    width: 30%;
+}
+.headinArrow {
+    padding-top: 30px;
+}
+.worksectionHeading {
+    margin-bottom: 78px;
+}
+.worksectiondiv {
+    padding: 31px 0px 60px 0px;
+    margin: 0 auto;
+}
+.worksection::before {
+    height: 86%;
+    width: 100%;
+    top: 88px;
+    right: 0px;
+}
+.seemoreForSLider {
+    padding-left: 43%;
+    margin-top: 34px;
+}
+.seemoreForSLider a {
+    font-size: 12px;
+}
+.onecobineArea::before {
+    content: "";
+    position: absolute;
+    height: 74%;
+    width: 20%;
+    top: 100px;
+    right: 0px;
+    background-image: url(images/forthrightgooglebg.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.ourNewsHeading a {
+    font-size: 13px;
+    font-weight: 500;
+}
+.ourNewsHeading h1 a {
+    font-size: 28px;
+    font-weight: 600;
+}
+.leftArrowSizingfivth {
+    display: inline-block;
+    width: 21%;
+}
+.rightArrowSizingSixth {
+    display: inline-block;
+    width: 39%;
+}
+.newsArrow {
+    margin: 32px 0px 0px 0px;
+}
+.newsCarts {
+    padding: 30px 0px 20px 0px;
+}
+.newsminicart {
+    padding: 24px 0px 29px 26px;
+    width: 27%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.newsminicart h4 {
+    color: #314584;
+    padding-bottom: 15px;
+    font-size: 11px;
+}
+.newsminicart p {
+    color: #314584;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+.CActive h4 {
+    color: #ffffff;
+}
+.CActive p{
+    color: #ffffff;
+}
+.arrowsizinboxseven {
+    width: 11%;
+    margin-left: 102px;
+    margin-top: 12px;
+}
+.contactusdivMain {
+    padding: 70px 0px 30px 0px;
+}
+.contactusdiv a {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 25px;
+}
+.contactusdiv h1 a {
+    font-size: 22px;
+}
+.formArea {
+    margin-bottom: 14px;
+}
+.formArea [type="text"] {
+    padding: 8px 9px;
+    font-size: 12px;
+}
+#mbox {
+    padding: 3px 3px;
+    font-size: 12px;
+}
+.sentconfirmetion {
+    margin-top: 25px;
+}
+.sentconfirmetion a {
+    padding: 8px 10px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+.footerdivArea {
+    text-align: center;
+    padding: 2px 0px;
+}
+.footerLogoSizing {
+    width: 7%;
+    margin: 0 auto;
+}
+.footerdiv h1 {
+    margin-top: 13px;
+    font-size: 25px;
+}
+.footNav {
+    margin-bottom: 16px;
+}
+.footNav li a {
+    font-size: 18px;;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.socialSizingBox {
+    width: 2%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 19px;
+}

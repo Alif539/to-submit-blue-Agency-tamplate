@@ -71,6 +71,7 @@ ul li a{text-decoration: none ; cursor: pointer;}
     width: 20%;
     margin-right: 185px;
 }
+.ArrowBox{ display: inline-block;}
 .MenuBtnone{
     color: #314584;
     margin-left: 22px;
@@ -217,6 +218,7 @@ ul li a{text-decoration: none ; cursor: pointer;}
     margin: 0px 10px 0px 0px;
     
 }
+.ArreoboxTwo{}
 .serviceThatwesellcarts {
   width: 68%;
   padding:10px ;
@@ -274,6 +276,12 @@ ul li a{text-decoration: none ; cursor: pointer;}
     color: #314584; 
     font-size: 49px;
 }
+.leftArrowSizing{
+    display: inline-block;
+}
+.rightArrowSizing{
+    display: inline-block;
+}
 .reserchAreaDIv p {
 }
 .resercAreaHeading {
@@ -328,6 +336,7 @@ ul li a{text-decoration: none ; cursor: pointer;}
 .workThubnails {
     margin-bottom: 15px;
 }
+.fetBoxMini{ display: inline-block;}
 .workThubnails a {
     margin: 0px 6px 0px 6px;
 
@@ -363,12 +372,18 @@ ul li a{text-decoration: none ; cursor: pointer;}
     height: 120%;
     width: 22%;
     top: 141px;
-    left: 1493px;
+    /* left: 1493px; */
     background-image: url(images/forthrightgooglebg.png);
     background-repeat: no-repeat;
     z-index: -1;
     
 } 
+.leftArrowSizingthree{
+    display: inline-block;
+}
+.rightArrowSizingFour{
+    display: inline-block;
+}
 
 /* our nwes section starts here */
 .ourNewsDIvn {
@@ -393,7 +408,8 @@ ul li a{text-decoration: none ; cursor: pointer;}
     font-size: 49px;
     font-weight: 800;
 }
-
+.leftArrowSizingfivth{display: inline-block;}
+.rightArrowSizingSixth{display: inline-block;}
 .newsCarts{
     padding: 75px 0px;
 }
@@ -428,6 +444,9 @@ ul li a{text-decoration: none ; cursor: pointer;}
 }
 .CActive h4{ 
     color: #ffffff;
+}
+.arrowsizinboxseven{
+    
 }
 .CActive p{
     color: #ffffff;
@@ -525,7 +544,9 @@ ul li a{text-decoration: none ; cursor: pointer;}
 .footerdiv{
     margin-bottom: 20px;
 }
-.footerdiv a{}
+.footerLogoSizing{}
+.footerLogoSizing a{}
+.footerLogoSizing a img{}
 .footerdiv h1{
     font-size: 49px;
     color: #ff3946;
@@ -550,15 +571,17 @@ ul li a{text-decoration: none ; cursor: pointer;}
 .footNav li a:hover {
     color:#ff3946
 }
+.socialSizingBox{
+    display: inline-block;
+    margin-left:36px ;
+    margin-right: 36px;
+}
 
 .social {
     margin-bottom: 20px;
 }
-.social a {
-    margin-left:36px ;
-    margin-right: 36px;
-}
-.social a:hover{
+
+.socialSizingBox:hover{
     filter: invert();
 }
 /* footer section ends here */
